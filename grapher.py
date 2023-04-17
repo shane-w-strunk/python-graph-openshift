@@ -5,3 +5,6 @@ y = [1, 5, 3, 5, 7, 8]
 
 plt.plot(x, y)
 plt.show()
+
+plt.savefig("output.jpg")
+print("succesfully built, shown, and saved graph as jpg")
