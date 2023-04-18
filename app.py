@@ -6,6 +6,10 @@ app=Flask(__name__)
 def main():
     return 'Hello, world!'
 
+@app.route('/home')
+def home():
+    return 'Hello, world!'
+
 @app.route('/graph')
 def graph():
     x = [1, 2, 3, 4, 5, 6]
