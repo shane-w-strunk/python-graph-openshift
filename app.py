@@ -16,6 +16,7 @@ def graph():
 
     plt.savefig("output.jpg")
     print("succesfully built, shown, and saved graph as jpg")
+    return("succesfully built, shown, and saved graph as jpg")
 
 if __name__ == '__main__':
         print("HELLO WORLD! BUILT WITH A p2i file")
