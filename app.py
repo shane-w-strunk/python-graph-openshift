@@ -2,15 +2,11 @@ from flask import Flask
 import matplotlib.pyplot as plt
 app=Flask(__name__)
 
-@app.route('/')
+@app.route('/graph-app/home')
 def main():
     return 'Hello, world!'
 
-@app.route('/home')
-def home():
-    return 'Hello, world!'
-
-@app.route('/graph')
+@app.route('/graph-app/graph')
 def graph():
     x = [1, 2, 3, 4, 5, 6]
     y = [1, 5, 3, 5, 7, 8]
